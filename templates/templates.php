@@ -6,6 +6,9 @@
 </head>
 <body>
 	<section>
+		<nav>
+			<?php echo getMenu(); ?> 	
+		</nav>
 		<article>
 			<?php echo getContent(); ?> 	
 		</article>	
